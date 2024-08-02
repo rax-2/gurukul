@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background-color: #00061f;
+}
+
+/* header  */
+header,
+footer,
+main {
+    background-color: #ffffff1c;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.nav_bar_a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav_list {
+    display: flex;
+}
+
+.home_text,
+.nav_items {
+    color: white;
+    background-color: #ffffff18;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.nav_items {
+    list-style-type: none;
+    margin-left: 8px;
+}
+
+/* header end   */
+
+
+
+
+
+/* footer   */
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_item {
+    list-style-type: none;
+    margin-left: 8px;
+}
+
+.footer_logo {
+    height: 12px;
+}
+
+.footer_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* footer end    */
+
+
+
+/* main start    */
+main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about_section,
+.content_section,
+.loading_section,
+.loading_p {
+    background-color: #ffffff0c;
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.about_head_section,
+.content_heading_section {
+    margin: 4px;
+}
+
+.about_head,
+.content_heading {
+    font-size: 18px;
+    cursor: default;
+}
+
+.about_text_section,
+.content_box {
+    margin: 4px 12px;
+}
+
+.about_text {
+    font-size: 12px;
+}
+
+.my-div {
+    background-color: #ffffff0a;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topic_head {
+    color: white;
+    font-size: 18px;
+    cursor: default;
+}
+
+.inner_div {
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page_link {
+    background-color: #ffffff0e;
+    color: white;
+    margin: 8px;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.videoContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.youtube_videos_container {
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 26dvw;
+    height: 29dvh;
+
+}
+
+.form_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form_inner {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff26;
+}
+
+.qes_sec,
+.submit_btn {
+    /* background-color: #fff; */
+    margin: 8px;
+}
+
+.qst_label {
+    margin-bottom: 4px;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+}
+
+.qst_label {
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.qst_field {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff1e;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14px;
+
+}
+
+.submit_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.submit_button {
+    border-radius: 6px;
+    border: none;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.224);
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.submit_button:hover {
+    background-color: #69ffda6c;
+    color: rgb(175, 255, 210);
+    font-size: 15px;
+}
+
+/* .qst_field:: */
+
+.qst_field::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* main   end    */
+
+
+
+@media only screen and (max-width: 600px) {
+    .youtube_videos_container {
+        margin: 10px;
+        border: none;
+        border-radius: 8px;
+        width: 370px;
+        height: 208px;
+    }
+}
